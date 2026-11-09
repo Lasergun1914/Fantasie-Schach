@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPELLCRAFT CHESS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+</head>
+<body>
+    <div id="title">SPELLCRAFT <span>CHESS</span></div>
+
+    <div id="hud">
+        <div id="turn">🌿 Das Elfenreich ist am Zug</div>
+        <div id="message">Wähle eine Figur aus.</div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="bottom">
+        <div>🌿 ELFENREICH</div>
+        <div>⚔️</div>
+        <div>🔥 SCHATTENHORDE</div>
+    </div>
+
+    <div id="controls">
+        Klicke eine Figur an und wähle anschließend ihr Zielfeld.
+        <br>
+        <button id="restart">NEUES SPIEL</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
